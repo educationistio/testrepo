@@ -1,1 +1,1 @@
-echo 'System.register([],function(_e,_c){alert("XSS: "+document.domain);return{execute:function(){}};});'
+System.register([],function(_e,_c){alert("XSS: "+document.domain);return{execute:function(){}};});
